@@ -11,7 +11,7 @@ Return the maximum amount of water a container can store.
 public class Solution11 {
     public int maxArea(int[] height) {
 
-//      //  Long version
+//      //  Slow version
 //        int result = 0;
 //        for (int i = 0; i < height.length - 1; i++) {
 //            for (int j = 1; j < height.length; j++) {
@@ -22,6 +22,7 @@ public class Solution11 {
 //        }
 //        return result;
 
+        // fast version
         int result = 0;
         int i = 0;
         int j = height.length - 1;
